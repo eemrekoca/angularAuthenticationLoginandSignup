@@ -30,7 +30,7 @@ import { AgmCoreModule } from '@agm/core';
     AngularFireAuthModule,
     AngularFirestoreModule,
     AgmCoreModule.forRoot({
-      apiKey: 'AIzaSyDK2Onuc_ukBM9TCrkjushhVuGsxLBbGFM'
+      apiKey: 'API_KEY'
     }),
 
   ],
