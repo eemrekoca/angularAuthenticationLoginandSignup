@@ -1,0 +1,28 @@
+<body>
+    <div id="login">
+        <div class="container">
+            <div id="login-row" class="row justify-content-center align-items-center">
+                <div id="login-column" class="col-md-6">
+                    <div id="login-box" class="col-md-12">
+                            <h3 class="text-center text-info">Giriş Yap</h3>
+                            <div class="form-group">
+                                <label for="E-mail" class="text-info">E-mail:</label><br>
+                                <input [(ngModel)]="email" placeholder="E-mail" type="email">
+                            </div>
+                            <div class="form-group">
+                                <label  for="password" class="text-info">Şifre: </label><br>
+                                <input [(ngModel)]="password" type="password" name="password" id="password" class="form-control">
+                            </div>
+                            <div class="form-group">
+                                <label for="remember-me" class="text-info"><span>Beni hatırla</span> <span><input id="remember-me" name="remember-me" type="checkbox"></span></label><br>
+                                <input type="submit" name="submit" (click)="signIn()" class="btn btn-info btn-md" value="Giriş Yap">
+                            </div>
+                            <div id="register-link" class="text-right">
+                                <a href="/sign-up" class="text-info">Kayıt Ol</a>
+                            </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
