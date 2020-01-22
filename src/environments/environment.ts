@@ -1,12 +1,12 @@
 export const environment = {
   production: false,
   firebase: {
-    apiKey: "AIzaSyDYJmL7jB1x9M_XlkvwaoEKEkONOXcOzFs",
-    authDomain: "just-testing-ce8bb.firebaseapp.com",
-    databaseURL: "https://just-testing-ce8bb.firebaseio.com",
-    projectId: "just-testing-ce8bb",
-    storageBucket: "just-testing-ce8bb.appspot.com",
-    messagingSenderId: "166993277325",
-    appId: "1:166993277325:web:4047e56056509282a88dc4"
+    apiKey: "YOUR_FIREBASE_KEY",
+    authDomain: "YOUR_FIREBASE_KEY",
+    databaseURL: "YOUR_FIREBASE_KEY",
+    projectId: "YOUR_FIREBASE_KEY",
+    storageBucket: "YOUR_FIREBASE_KEY",
+    messagingSenderId: "YOUR_FIREBASE_KEY",
+    appId: "YOUR_FIREBASE_KEY"
   }
 };
